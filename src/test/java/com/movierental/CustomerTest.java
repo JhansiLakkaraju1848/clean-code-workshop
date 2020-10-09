@@ -8,7 +8,7 @@ public class CustomerTest {
     @Test
     public void shouldTestStatement(){
         Customer customer = new Customer("Prakash");
-        customer.addRental(new Rental(new Movie("Jhansi the Timekeepr", Movie.CHILDRENS), 4));
+        customer.addRental(new Rental(new Movie("Jhansi the Timekeeper", Movie.CHILDRENS), 4));
         customer.addRental(new Rental(new Movie("Movie 2", Movie.REGULAR), 7));
         customer.addRental(new Rental(new Movie("Movie 3", Movie.NEW_RELEASE), 2));
 
